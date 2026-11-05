@@ -1,0 +1,2 @@
+# 在原系统环境中补充安装；AR计算沿用现有pandas/numpy/scikit-learn。
+openpyxl==3.1.5

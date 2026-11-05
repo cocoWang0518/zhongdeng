@@ -1,0 +1,9 @@
+# 新行业预测的已验证依赖；用于现有系统环境的模型兼容性补充安装。
+# 先安装系统依赖，再安装此文件；不要与原 requirements.txt 的不同固定版本合并解析。
+scikit-learn==1.6.1
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+joblib==1.5.3
+xgboost==3.2.0
+pyarrow==25.0.1

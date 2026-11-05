@@ -1,0 +1,12 @@
+services:
+  shifanxitong:
+    image: shifan:1.0
+    container_name: shifanxitong
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    ports:
+      - "11232:11232"
+    volumes:
+      - ./:/app
+      - ./mysql_data:/var/lib/mysql

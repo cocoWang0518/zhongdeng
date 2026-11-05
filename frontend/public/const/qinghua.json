@@ -1,0 +1,79 @@
+{
+  "name": {
+    "name": "名称",
+    "definition": ""
+  },
+  "stkcd": {
+    "name": "股票代码",
+    "definition": ""
+  },
+  "date": {
+    "name": "日期",
+    "definition": ""
+  },
+  "returnAN": {
+    "name": "年化收益率（%）",
+    "definition": "（年度收益率）/（天数/365）×100%"
+  },
+  "rawdownMax": {
+    "name": "最大回撤（%）",
+    "definition": "（最大峰值-最低值）/最大峰值 ×100%"
+  },
+  "sharpAN": {
+    "name": "年化夏普比率",
+    "definition": "夏普比率 = (组合年化收益率 - 无风险利率) / 年化波动率"
+  },
+  "varianceAN": {
+    "name": "收益率的波动率",
+    "definition": "上一年度日度收益率的方差"
+  },
+  "pe": {
+    "name": "市盈率",
+    "definition": "股价/每股收益"
+  },
+  "pb": {
+    "name": "市净率",
+    "definition": "股价/每股净资产"
+  },
+  "floating_market_val": {
+    "name": "流动市值",
+    "definition": "流动市值的自然对数"
+  },
+  "var95": {
+    "name": "在险价值5%分位",
+    "definition": "95%置信水平的在险价值（Value at Risk），252日滚动窗口"
+  },
+  "var99": {
+    "name": "在险价值1%分位",
+    "definition": "99%置信水平的在险价值（Value at Risk），252日滚动窗口"
+  },
+  "volatility": {
+    "name": "波动率",
+    "definition": "日度收益率的方差，252滚动窗口"
+  },
+  "mVaR": {
+    "name": "边际VaR",
+    "definition": "通过求解投资组合（全市场股票等权）对每个资产权重的偏导数计算"
+  },
+  "es95": {
+    "name": "股票ES95",
+    "definition": "95%置信水平下的期望损失，历史数据法，252日滚动窗口"
+  },
+  "es99": {
+    "name": "股票ES99",
+    "definition": "99%置信水平下的期望损失，历史数据法，252日滚动窗口"
+  },
+  "volume": {
+    "name": "成交量",
+    "definition": "表示当天该股票在市场中实际成交的总股数，用于衡量市场交易的活跃程度和资金流入流出情况。"
+  },
+  "true": {
+    "name": "真实股价值"
+  },
+  "pred": {
+    "name": "预测股价值"
+  },
+  "ym": {
+    "name": "日期"
+  }
+}

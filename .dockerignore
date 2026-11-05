@@ -1,0 +1,10 @@
+*
+
+!Dockerfile
+!.dockerignore
+!pyproject.toml
+!uv.lock
+!uv.toml
+!docker/
+!docker/entrypoint.sh
+!docker/supervisord.conf

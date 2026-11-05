@@ -1,0 +1,29 @@
+[project]
+name = "shifanxitong"
+version = "0.1.0"
+description = "用于部署给海通的初版完整框架系统"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "flask",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "openai",
+    "pymysql",
+    "scikit-learn",
+    "transformers",
+    "tqdm",
+    "shap",
+    "xgboost",
+    "tensorflow",
+    "seaborn",
+    "requests",
+    "joblib",
+    "torch",
+    "torch-geometric",
+    "h5py",
+    "python-dotenv",
+    "pyarrow>=24.0.0",
+    "cryptography>=50.0.0",
+]
